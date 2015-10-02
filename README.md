@@ -17,8 +17,10 @@ For npm and Docker the following plugins are needed:
 The image comes with nvm installed in `/usr/local/nvm`
 
 ## Node.js
-Nvm can be used to install different versions of Node.js
+[Nvm](https://github.com/creationix/nvm) can be used to install different versions of Node.js
+
 Currently it is 0.12.7 in `/usr/local/nvm/versions/node/v0.12.7`
-Add this in your build
+Add this as a NodeJS installation in Manage Jenkins.
+In your jobs you can then check the "Provide Node & npm bin/ folder to PATH" if you want to use npm in a shell script build step.
 
 
